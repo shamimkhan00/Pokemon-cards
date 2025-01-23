@@ -1,0 +1,118 @@
+.Cards{
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #f9f9f9, #e3e3e3);
+    font-family: "Arial", sans-serif;
+    overflow: hidden;
+
+    border: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.image{
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    width: 50%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+}
+
+.name{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.info{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+.types h3 {
+    font-size: 1rem;
+    background: #ffcb05;
+    color: #2a75bb;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.abilities{
+    margin: 10px 0;
+    
+}
+
+
+.abilities h4 {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.abilities ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.abilities ul li {
+    font-size: 0.8rem;
+    margin: 5px 0;
+    color: #444;
+    text-transform: capitalize;
+}
+
+.stats {
+    margin: 10px 0;
+}
+
+.stats h3 {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.stats ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.stats ul li {
+    font-size: 0.8rem;
+    margin: 5px 0;
+    color: #444;
+}
+
+.dimensions {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.dimensions h3 {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.dimensions p {
+    font-size: 0.8rem;
+    color: #444;
+}

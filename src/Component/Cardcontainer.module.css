@@ -1,0 +1,14 @@
+.Cardcontainer{
+    background-color: #e7f0ff;
+    /* padding: 10px; */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px; 
+    justify-items: center; 
+    align-items: center; 
+    /* min-height: 20rem;
+    min-width: 400px; */
+}
+
