@@ -1,4 +1,6 @@
-# React + Vite
+# POKEMON CARDS USING API
+
+![image](https://github.com/user-attachments/assets/9d1ddb6d-4495-407c-8772-0e5ede43587b)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
